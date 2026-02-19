@@ -11,8 +11,8 @@ body {
 
 main {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 0.3px;
     width: 250px;
     text-align: center;
     font-family: 'Outfit', 'Courier New', Courier, monospace;
@@ -39,6 +39,7 @@ h1 {
 
 p {
     color: hsl(216, 15%, 48%);
+    font-size: 0.9em;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -48,16 +49,12 @@ footer {
     grid-row: 2/3;
 }
 
-@media screen and (min-width: 700px) and (min-height: 1000px) {
-    /* body {
-        background-color: red;
-    } */
-
+@media screen and (min-width: 44em) and (min-height: 63em) {
     main {
-        width: 50%;
-        height: 700px;
+        width: 400px;
+        height: 650px;
         padding: 30px;
-        font-size: 1rem;
+        
     }
     
     img {
@@ -66,7 +63,11 @@ footer {
         margin-top: 0;
     }
 
-    h1 p {
-        font-size: 17px;
+    h1 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1.5em;
     }
 }
